@@ -1,3 +1,28 @@
 body {
 	font-family: "Roboto", sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+ul {
+	display: flex;
+	list-style-type: none;
+	gap: 15px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-around;
+	margin: 20px;
+}
+
+.hero-box {
+	display: flex;
+	justify-content: space-around;
+}
+
+.image {
+	padding: 50px;
+	background-color: #1f2937;
 }
